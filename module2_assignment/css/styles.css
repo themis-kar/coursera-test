@@ -1,8 +1,10 @@
 * {
 	box-sizing: border-box;
+	font-family: sans-serif;
 }
 
 h1 {
+	font-size: 1.75em;
 	text-align: center;
 }
 
@@ -44,12 +46,13 @@ h1 {
 }
 
 .food h3 {
+	font-size: 1.25em;
 	border: 1px solid black;
+	border-radius: 0 0 0 10px;
 	width: 33%;
 	margin: 0;
 	text-align: center;
-	line-height: 28px;
-	background-color: pink;
+	line-height: 30px;
 	position: absolute;
 	top: -1px;
 	right: -1px;
@@ -57,4 +60,19 @@ h1 {
 
 .food p {
 	margin-top: 40px;
+	line-height: 20px;
+}
+
+#chicken {
+	background-color: #11CC11;
+}
+
+#pork {
+	background-color: pink;
+	color: blue;
+}
+
+#beef {
+	background-color: #990000;
+	color: white;
 }
