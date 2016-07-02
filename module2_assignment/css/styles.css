@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+	.col-lg-4 {
+    float: left;
+	width: 33.33%;
+	}
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 { float: left; }
+	
+	.col-md-6 { width: 50%; }
+	
+	.col-md-12 { width: 100%; }
+}
+
+/*Mobile*/
+@media (max-width: 767px) {
+	.col-sm-12 {
+	width: 100%;
+	float: left;
+	}
+}
+
+.row {
+	width: 100%;
+}
+
+.food {
+	border: 1px solid black;
+	margin: 10px;
+	padding: 0 8px 5px 8px;
+	background-color: lightgray;
+	position: relative;
+}
+
+.food h3 {
+	border: 1px solid black;
+	width: 33%;
+	margin: 0;
+	text-align: center;
+	line-height: 28px;
+	background-color: pink;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+}
+
+.food p {
+	margin-top: 40px;
+}
